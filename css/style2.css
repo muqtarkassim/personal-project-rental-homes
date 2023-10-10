@@ -1,0 +1,63 @@
+.container-head2{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+    margin-top: 40px;
+   
+    
+}
+.card-homes{
+    width:350px;
+    margin:30px;
+    border:1px solid white;
+    border-radius: 15px;
+    transform: scale(1.03); /* Scale the div up by 10% */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); 
+    overflow: hidden;
+
+}
+.card-homes img{
+width: 100%;
+    height:300px;
+    object-fit: cover;
+}
+.card-homes span{
+    margin-right: 10px;
+    
+}
+form{
+background-color: beige;
+display:flex;
+flex-direction:column;
+
+justify-content:center;
+align-items:center;
+}
+form input{
+    width:80%;
+    height:50px;
+     padding: 10px;
+     margin-top: 10px;
+     border: none;
+     border-radius: 5px;
+     outline: none;
+   
+}
+@media screen and (max-width: 767px) {
+    form input {
+      width: 60%;
+    }
+    form div{
+        display: flex;
+        flex-direction: column;
+        
+    }
+  }
+form div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:500px;
+    flex-wrap: wrap;
+}

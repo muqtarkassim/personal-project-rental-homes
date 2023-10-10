@@ -1,0 +1,183 @@
+{
+  "buy": [
+    {
+      "id": 1,
+      "type": "House",
+      "location": "123 Main St",
+      "price": 350000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area": 1800,
+      "image": "https://st.depositphotos.com/1163717/3352/i/450/depositphotos_33527949-stock-photo-house-10.jpg"
+    },
+    {
+      "id": 2,
+      "type": "Apartment",
+      "location": "456 Elm St",
+      "price": 250000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "area": 1200,
+      "image": "https://st.depositphotos.com/1172243/2754/i/450/depositphotos_27541499-stock-photo-traditional-american-home.jpg"
+    },
+    {
+      "id": 3,
+      "type": "Condo",
+      "location": "789 Oak St",
+      "price": 450000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "area": 2400,
+      "image": "https://st.depositphotos.com/1041088/1312/i/450/depositphotos_13126363-stock-photo-classic-american-house-with-fence.jpg"
+    },
+    {
+      "id": 4,
+      "type": "House",
+      "location": "101 Pine St",
+      "price": 420000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "area": 2200,
+      "image": "https://static9.depositphotos.com/1625039/1145/i/450/depositphotos_11458373-stock-photo-beautiful-large-new-upscale-house.jpg"
+    },
+    {
+      "id": 5,
+      "type": "Apartment",
+      "location": "789 Elm St",
+      "price": 270000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area": 1500,
+      "image": "https://st3.depositphotos.com/1825794/15301/i/450/depositphotos_153011108-stock-photo-contemporary-australian-home.jpg"
+    },
+    {
+      "price": "4500000",
+      "bedrooms": "4",
+      "bathrooms": "3",
+      "location": "eastleight-california",
+      "area": "400",
+      "image": "https://st.depositphotos.com/2569633/2954/i/450/depositphotos_29545175-stock-photo-modern-home.jpg",
+      "id": 6
+    },
+    {
+      "price": "720000",
+      "bedrooms": "5",
+      "bathrooms": "4",
+      "location": "parklands",
+      "area": "300",
+      "image": "https://static6.depositphotos.com/1039887/642/i/450/depositphotos_6427000-stock-photo-residential-beauty.jpg",
+      "id": 7
+    },
+    {
+      "price": "",
+      "bedrooms": "",
+      "bathrooms": "",
+      "location": "",
+      "area": "",
+      "image": "",
+      "id": 8
+    }
+  ],
+  "rent": [
+    {
+      "id": 1,
+      "type": "Condo",
+      "location": "123 Oak St",
+      "price": 2000,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "area": 800,
+      "image": "condo2.jpg"
+    },
+    {
+      "id": 2,
+      "type": "House",
+      "location": "456 Pine St",
+      "price": 2800,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "area": 2200,
+      "image": "house3.jpg"
+    },
+    {
+      "id": 3,
+      "type": "Apartment",
+      "location": "789 Maple St",
+      "price": 2300,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "area": 1100,
+      "image": "apartment3.jpg"
+    },
+    {
+      "id": 4,
+      "type": "Condo",
+      "location": "101 Birch St",
+      "price": 2100,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "area": 900,
+      "image": "condo3.jpg"
+    },
+    {
+      "id": 5,
+      "type": "House",
+      "location": "123 Redwood St",
+      "price": 3200,
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "area": 2800,
+      "image": "house4.jpg"
+    }
+  ],
+  "agents": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "phone": "555-123-4567",
+      "image": "agent1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "janesmith@example.com",
+      "phone": "555-987-6543",
+      "image": "agent2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Michael Johnson",
+      "email": "michael@example.com",
+      "phone": "555-567-8901",
+      "image": "agent3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Emily White",
+      "email": "emily@example.com",
+      "phone": "555-234-5678",
+      "image": "agent4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "David Brown",
+      "email": "david@example.com",
+      "phone": "555-678-1234",
+      "image": "agent5.jpg"
+    },
+    {
+      "id": 6
+    },
+    {
+      "id": 7
+    },
+    {
+      "name": "sinsss",
+      "email": "johndoe@example.com",
+      "phone": "555-123-4567",
+      "image": "agent1.jpg",
+      "id": 8
+    }
+  ]
+}
