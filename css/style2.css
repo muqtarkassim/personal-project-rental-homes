@@ -27,12 +27,15 @@ width: 100%;
     
 }
 form{
-background-color: beige;
+    background-color: aliceblue;
 display:flex;
 flex-direction:column;
 
 justify-content:center;
 align-items:center;
+}
+form button{
+    margin-top: 30px;
 }
 form input{
     width:80%;
@@ -51,7 +54,7 @@ form input{
     form div{
         display: flex;
         flex-direction: column;
-        
+
     }
   }
 form div{
@@ -60,4 +63,26 @@ form div{
     align-items: center;
     width:500px;
     flex-wrap: wrap;
+}
+
+.image-div{
+height:300px;
+width:300px;
+border-radius: 50%;
+background-color: aqua;
+overflow: hidden;
+/*margin-left: 30px;*/
+}
+.image-div img{
+    height: 100%;
+    width: 100%;
+    
+    object-fit: cover;
+}
+.All-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
 }

@@ -94,7 +94,7 @@ align-items: center;
 .image-rec {
     margin-left: 20px;
     display: flex;
-   
+    overflow: hidden;
     justify-content: center;
     align-items: center;
 
@@ -105,7 +105,8 @@ align-items: center;
     width:90px;
     height:40px;
     border-radius: 5px;
-    border:1px solid  rgba(5, 64, 255, 0.815);;
+    border:1px solid  rgba(5, 64, 255, 0.815);
+    cursor: pointer;
     
 }
 .image-containers img{
@@ -219,4 +220,33 @@ cursor: pointer;
 .last-footer {
     width: 100%;
     text-align: center;
+}
+
+/*responsiveness*/
+
+@media screen and (max-width: 767px){
+    .recommendation{
+        display: block;
+        margin:40px 0px;
+    }
+    .get-rec{
+        margin-bottom: 20px;
+    }
+    .all-cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .main-cards{
+        height: auto;
+    }
+    .content input{
+        width:50%;
+    }
+    .footer-second{
+        flex-direction: column;
+    }
+    .group-1, .contact{
+
+        display: none;
+    }
 }

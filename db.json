@@ -67,67 +67,59 @@
       "area": "300",
       "image": "https://static6.depositphotos.com/1039887/642/i/450/depositphotos_6427000-stock-photo-residential-beauty.jpg",
       "id": 7
-    },
-    {
-      "price": "",
-      "bedrooms": "",
-      "bathrooms": "",
-      "location": "",
-      "area": "",
-      "image": "",
-      "id": 8
     }
+    
   ],
   "rent": [
     {
       "id": 1,
       "type": "Condo",
       "location": "123 Oak St",
-      "price": 2000,
+      "price": "2000 /month",
       "bedrooms": 1,
       "bathrooms": 1,
       "area": 800,
-      "image": "condo2.jpg"
+      "image": "https://i.roamcdn.net/prop/brk/listing-thumb-376w/662a38211eb039250519483c772f0598/-/prod-property-core-backend-media-brk/4971315/a70720c1-c52e-4096-996c-f4648dc29889.jpg"
     },
     {
       "id": 2,
       "type": "House",
       "location": "456 Pine St",
-      "price": 2800,
+      "price": "2800 /month",
       "bedrooms": 4,
       "bathrooms": 3,
       "area": 2200,
-      "image": "house3.jpg"
+      "image": "https://i.roamcdn.net/prop/brk/listing-thumb-376w/1db07c82433f0565313f9f68b17f3850/-/prod-property-core-backend-media-brk/5882961/9d53ef11-98ed-46ee-b990-87ffebc50ec5.jpeg"
     },
     {
       "id": 3,
       "type": "Apartment",
       "location": "789 Maple St",
-      "price": 2300,
+      "price": "2300 /month",
       "bedrooms": 2,
       "bathrooms": 1,
       "area": 1100,
-      "image": "apartment3.jpg"
+      "image": "https://i.roamcdn.net/prop/brk/listing-thumb-376w/81ed98415dbd46737453660eaac27ee7/-/prod-property-core-backend-media-brk/5882441/579666d2-3a9e-4ccd-a1ce-5fcfc31fb0fe.jpeg"
     },
     {
       "id": 4,
       "type": "Condo",
       "location": "101 Birch St",
-      "price": 2100,
+      "price": "2100 /month",
       "bedrooms": 1,
       "bathrooms": 1,
       "area": 900,
-      "image": "condo3.jpg"
+      "image": "https://i.roamcdn.net/prop/brk/listing-thumb-376w/3c0dfeb2f05b4ae806cc5ff352e7785b/-/prod-property-core-backend-media-brk/5882815/5798a458-41bc-47a3-a070-fc43c8db1df6.jpeg"
     },
     {
       "id": 5,
       "type": "House",
       "location": "123 Redwood St",
-      "price": 3200,
+      "price": "3200 /month",
       "bedrooms": 5,
       "bathrooms": 4,
       "area": 2800,
-      "image": "house4.jpg"
+      "image": "https://i.roamcdn.net/prop/brk/listing-thumb-376w/e6ad5c7f4ad96ba642a56c9139adfb2b/-/prod-property-core-backend-media-brk/5882927/f959736b-dd02-4095-ad54-63948fc1b6c3.jpeg"
     }
   ],
   "agents": [
@@ -136,48 +128,44 @@
       "name": "John Doe",
       "email": "johndoe@example.com",
       "phone": "555-123-4567",
-      "image": "agent1.jpg"
+      "image": "https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmxhY2slMjBwZXJzb258ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60"
     },
     {
       "id": 2,
       "name": "Jane Smith",
       "email": "janesmith@example.com",
       "phone": "555-987-6543",
-      "image": "agent2.jpg"
+      "image": "https://media.istockphoto.com/id/1438969575/photo/smiling-young-male-college-student-wearing-headphones-standing-in-a-classroom.webp?b=1&s=170667a&w=0&k=20&c=3jwddQH5X_5-1o3hCkZnI1zRyVRIgJXuwT0QqQOf2lM="
     },
     {
       "id": 3,
       "name": "Michael Johnson",
       "email": "michael@example.com",
       "phone": "555-567-8901",
-      "image": "agent3.jpg"
+      "image": "https://media.istockphoto.com/id/1455211526/photo/young-woman-looking-away-contemplating-her-new-years-resolutions.webp?b=1&s=170667a&w=0&k=20&c=OwUvVJKZRLOnvB2_bG0cZPFIJ72P0ynq4zkhsSz04u8="
     },
     {
       "id": 4,
       "name": "Emily White",
       "email": "emily@example.com",
       "phone": "555-234-5678",
-      "image": "agent4.jpg"
+      "image": "https://plus.unsplash.com/premium_photo-1674777843203-da3ebb9fbca0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60"
     },
     {
       "id": 5,
       "name": "David Brown",
       "email": "david@example.com",
       "phone": "555-678-1234",
-      "image": "agent5.jpg"
+      "image": "https://images.unsplash.com/photo-1621905252472-943afaa20e20?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGJsYWNrJTIwcGVyc29ufGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60"
     },
-    {
-      "id": 6
-    },
-    {
-      "id": 7
-    },
+    
+    
     {
       "name": "sinsss",
       "email": "johndoe@example.com",
       "phone": "555-123-4567",
-      "image": "agent1.jpg",
-      "id": 8
+      "image": "https://media.istockphoto.com/id/1479374222/photo/portrait-of-a-happy-helpful-black-female-volunteer-young-adult-multiethnic-latina-with-afro.webp?b=1&s=170667a&w=0&k=20&c=mT62DO3L1LcmJWRTFI6DTpx2oGFvHaeShkaV_s_PnsU=",
+      "id": 6
     }
   ]
 }

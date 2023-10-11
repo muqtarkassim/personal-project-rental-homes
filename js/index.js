@@ -20,7 +20,10 @@ fetch('http://localhost:3000/buy')
 
  function dataBuy(homes){
     const bigImageDiv=document.querySelector('#container-head-id')
+    const mainCards=document.querySelector('#main-card-id')
     bigImageDiv.textContent=''
+    mainCards.textContent=''
+    mainCards.classList.remove('main-cards')
     bigImageDiv.classList.remove('container-head')
     bigImageDiv.classList.add('container-head2')
    // const createDiv1=document.createElement('div');
@@ -67,7 +70,9 @@ fetch('http://localhost:3000/buy')
     function dataSell(){
 
     const bigImageDiv=document.querySelector('#container-head-id')
+    const mainCards=document.querySelector('#main-card-id')
     bigImageDiv.textContent=''
+    mainCards.textContent=''
     bigImageDiv.classList.remove('container-head')
     //bigImageDiv.classList.add('container-head2')
     
@@ -127,6 +132,7 @@ inputImage.setAttribute('placeholder', 'url-image');
 //add button to submit
 const buttonSubmit=document.createElement('button');
 buttonSubmit.textContent='Submit'
+buttonSubmit.classList.add('sign-rec')
 
 
 // Append labels and inputs to the form
