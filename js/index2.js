@@ -67,3 +67,23 @@ agentsButon.addEventListener('click',()=>{
 
     })
  }
+
+ /// main cards button click functionality
+
+ const buttonMAinBuy=document.getElementById('buy-homes')
+ const buttonMAinSell=document.getElementById('sell-homes')
+ const buttonMAinRent=document.getElementById('rent-homes')
+
+ // add event listeners to the buttons
+ buttonMAinBuy.addEventListener('click',()=>{
+    //alert('cliked')
+    fetchBuy()
+ })
+ buttonMAinSell.addEventListener('click',()=>{
+    //alert('cliked')
+    dataSell()
+ })
+ buttonMAinRent.addEventListener('click',()=>{
+    //alert('cliked')
+    fetchRent()
+ })
