@@ -150,6 +150,7 @@ CreateDivform.append(CreateForm)
     bigImageDiv.append(    CreateDivform)
 
     // add event listener to the for
+    
     CreateForm.addEventListener('submit',(e)=>{
         e.preventDefault()
         //alert('cliked')
@@ -164,8 +165,14 @@ CreateDivform.append(CreateForm)
      // call the function with the params of the inputs value
 
      fetchSell(price1,bed1,bath1,loc1,area1,url1)
-
+inputPrice.value='';
+inputBedrooms.value='';
+inputBathrooms.value='';
+inputLocation.value='';
+inputArea.value='';
+inputImage.value='';
     })
+  
     }
 
     // function fetch post sell >>>>>>>><<<<<<<<<?????????????<<<<<<<<<<<<<<<<||||||
